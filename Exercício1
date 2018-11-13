@@ -1,0 +1,29 @@
+package Aula_06_11;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+public static void main(String[] args) {
+
+Scanner in = new Scanner (System.in);
+		
+int A;
+int B;
+		
+System.out.println("Digite dois números A e B: ");
+A = in.nextInt();
+B = in.nextInt();
+
+if (A != B && A >= 0 && B >= 0) {
+			
+for (int i = 0; i < B; i++) {
+
+if (i%2 == 1) {
+					
+System.out.println(i);
+}
+}
+}
+}
+}
